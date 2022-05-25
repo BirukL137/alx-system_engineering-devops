@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s dir link_name
+ln -s /bin/ls
