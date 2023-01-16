@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-'''Gather data from an API '''
+''' gather data from an API '''
 import requests
 from sys import argv
 
 if __name__ == '__main__':
-    # get employee response 
+    # get employee response
     endpoint = 'https://jsonplaceholder.typicode.com'
     user_res = requests.get(endpoint + '/users/' + argv[1]).json()
 
